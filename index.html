@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--=============== AOS ===============-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    AOS.init();
+
+    <title>Antonius Wisnu | Portofolio Website</title>
+  </head>
+
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Antonius Wisnu</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="bx bx-home-alt"></i> </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 href="" class="home__name">Antonius Wisnu</h1>
+            <h3 href="" class="home__education">Software Engineer Student at Universitas Gadjah Mada</h3>
+            <h3 href="" class="home__education email">antonius.kri2003@mail.ugm.ac.id</h3>
+
+            <div class="home__buttons">
+              <a download="" href="assets/pdf/CV.pdf" class="button button--ghost"> Download CV </a>
+              <a href="#about" class="button">About Me</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/profil2.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a target="_blank" href="https://www.linkedin.com/in/antonius-wisnu-bb8411224/" target="_blank" class="home__social-link">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a target="_blank" href="https://github.com/antoniuswisnu" target="_blank" class="home__social-link">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/antoniuswisnu_" target="_blank" class="home__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse"></i>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" data-aos="fade-up" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/wisnu.jpeg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box about__icon">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">Semester 2</span>
+              </div>
+
+              <div class="about__box about__icon">
+                <i class="bx bx-briefcase"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">18 SKS</span>
+              </div>
+
+              <div class="about__box about__icon">
+                <i class="bx bx-support"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">24/7 Online</span>
+              </div>
+            </div>
+
+            <p class="about__description">Saya adalah mahasiswa Universitas Gadjah Mada, Fakultas Sekolah Vokasi, Prodi Teknologi Rekayasa Perangkat Lunak angkatan 2021</p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My Abilities</span>
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Front-End Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermidiate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Javascript</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Sass</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">React Js</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Back-End Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Intermidiate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Laravel</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Node JS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Mobile Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Kotlin</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills__name">Dart</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">Experience</span>
+        <h2 class="section__title">Organization or Volunteer</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              BEM KM<br />
+              UGM 2022
+            </h3>
+
+            <span class="services__button"> See more <i class="bx bx-right-arrow-alt"></i> </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Kementerian Advokasi dan Kesejahteraan Mahasiswa</h3>
+                <p class="services__modal-description">
+                  kementerian yang hadir sebagai jembatan penghubung aspirasi antara mahasiswa dengan pemangku kebijakan kampus. Kementerian Adkesma berperan sebagai garda terdepan dalam mengadvokasikan berbagai permasalahan dan berperan
+                  dalam membantu kesejahteraan mahasiswa baik dari segi akademik, finansial, sarana prasarana, maupun isu-isu kemahasiswaan.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Mengelola dan bertanggung jawab atas konten Sosial Media Adeksma BEM KM UGM 2022</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              KOMATIK <br />
+              UGM 2022
+            </h3>
+
+            <span class="services__button"> See more<i class="bx bx-right-arrow-alt"></i> </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Division IoT <br />
+                  GAMA
+                </h3>
+                <p class="services__modal-description">
+                  IoT GAMA merupakan salah satu divisi di Komunitas Mahasiswa Teknologi Informasi dan Komunikasi (KOMATIK) Universitas Gadjah Mada Untuk mewadahi mahasiswa yang mempunyai minat untuk riset atau mengikuti perlombaan/kompetisi
+                  dibidang Internet of Things (IoT). Selain itu, juga mengadakan workshop untuk meningkatkan kemampuan pengurus IoT GAMA.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Membuat projek sederhana berbasis IoT.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              NetWorking <br />
+              Club 2022
+            </h3>
+
+            <span class="services__button"> See more<i class="bx bx-right-arrow-alt"></i> </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Division Programming <br />
+                  And Android development
+                </h3>
+                <p class="services__modal-description">Salah satu bidang di NetClub tentang pengembangan aplikasi perangkat lunak menggunakan Android Studio</p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Projek akhir membuat aplikasi mobile sederhana</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portofolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".movil">Mobile</span>
+          <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+          <!-- Web -->
+          <div class="work__card mix web">
+            <img src="assets/img/web1.PNG" alt="" class="work__img" />
+            <h3 class="work__title">Online Shop Website</h3>
+            <a target="_blank" href="https://github.com/antoniuswisnu/Online-Shop-Website" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/web2.PNG" alt="" class="work__img" />
+            <h3 class="work__title">Music Website Design</h3>
+            <a href="#" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/nodejs.png" alt="" class="work__img" />
+            <h3 class="work__title">Bookshelf API NodeJS</h3>
+            <a href="https://github.com/antoniuswisnu/Bookshelf-API-NodeJS" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/laravel.png" alt="" class="work__img" />
+            <h3 class="work__title">Laravel CRUD</h3>
+            <a href="https://learnwithacruz.my.id/ppw2wisnu/public/login" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+
+          <!-- Mobile -->
+          <div class="work__card mix movil">
+            <img src="assets/img/android.png" alt="" class="work__img" />
+            <h3 class="work__title">Chelsea Player - Recycler View</h3>
+            <a target="_balnk" href="https://github.com/antoniuswisnu/Chelsea-Player-2022" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+
+          <!-- Design -->
+          <div class="work__card mix design">
+            <img src="assets/img/Desktop - 1.png" alt="" class="work__img" />
+            <h3 class="work__title">3D Website UI</h3>
+            <a target="_blank" href="https://www.figma.com/file/TtFQpWEY1IKTEXUm3LOn7Q/3D-Website-UI?node-id=0%3A1" class="work__button"> Demo <i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section">
+        <span class="section__subtitle">My clients say</span>
+        <h2 class="section__title">Testimonial</h2>
+
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/testimonial1.png" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Daved Aldyansyah</h3>
+              <p class="testimonial__description">Website ini sangat baik dan responsive untuk pengguna desktop dan mobile</p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/testimonial2.png" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Risman Bima</h3>
+              <p class="testimonial__description">Desain dari website ini sangat simple dan elegan, ditambah fitur dark mode dan light mode membuat website ini menjadi semakin baik.</p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/testimonial3.png" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Rasendriya Arkana</h3>
+              <p class="testimonial__description">Saya sangat suka dengan tampilan website ini.</p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">antonius.kri2003@mail.ugm.ac.id</span>
+
+                <a href="mailto:antonius.kri2003@mail.ugm.ac.id" target="_blank" class="contact__button"> Write me <i class="bx bx-right-arrow-alt contact__buutton-icon"></i> </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">0895326509445</span>
+
+                <a href="https://api.whatsapp.com/send?phone=0895326509445&text=Hello, more information!" target="_blank" class="contact__button"> Write me <i class="bx bx-right-arrow-alt contact__buutton-icon"></i> </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-telegram contact__card-icon"></i>
+                <h3 class="contact__card-title">Telegram</h3>
+                <span class="contact__card-data">0895326509445</span>
+
+                <a href="https://t.me/antoniuswisnuu" target="_blank" class="contact__button"> Write me <i class="bx bx-right-arrow-alt contact__buutton-icon"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input type="text" placeholder="Insert your name" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input type="email" placeholder="Insert your email" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="contact__form-input"></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Antonius Wisnu</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="footer__link">Testimonial</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="https://www.instagram.com/antoniuswisnu_" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://twitter.com/antoniuswisnuu" target="_blank" class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy"> &copy; Antonius Wisnu. All rigths reserved </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
